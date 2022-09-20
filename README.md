@@ -13,9 +13,9 @@
 
 进度条，点击之后会跳转到下一个节点。
 
-![ProgressBar](./ResultImg/ProgressBar.png)
+![ProgressBar](./ResultImg/progressBar.png)
 
-![ProgressBar-active1](md_img/README/ProgressBar-active.jpg)
+![ProgressBar-active1](./ResultImg/progressBar-active.jpg)
 
-![ProgressBar-](./ResultImg/ProgressBar-active2.png)
+![ProgressBar-](./ResultImg/progressBar-active2.png)
 
