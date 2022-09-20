@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+:root {
+    --line-style-fill: #3498db;
+    --back-color: #f6f7fb;
+    --light-grey: #e0e0e0;
+    --line-style-empty: #999;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--back-color);
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.progress-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    min-width: 100%;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.progress-container::before {
+    content: "";
+    position: absolute;
+    height: 4px;
+    background-color: var(--line-style-empty);
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.progress {
+    position: absolute;
+    height: 4px;
+    background-color: var(--line-style-fill);
+    left: 0;
+    width: 0%;
+    z-index: 0;
+    transition: all ease .3s;
+    -webkit-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    -ms-transition: all ease .3s;
+    -o-transition: all ease .3s;
+}
+
+.circle {
+    color: #fff;
+    font-size: 18px;
+    background-color: var(--light-grey);
+    border: 3px solid var(--line-style-empty);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.circle.active {
+    border: 3px solid var(--line-style-fill);
+}
+
+.btn {
+    padding: 6px 20px;
+    margin: 5px;
+    font-size: 18px;
+    color: var(--light-grey);
+    border: none;
+    background-color: var(--line-style-fill);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn:active:enabled {
+    transform: scale(0.98);
+    -webkit-transform: scale(0.98);
+    -moz-transform: scale(0.98);
+    -ms-transform: scale(0.98);
+    -o-transform: scale(0.98);
+}
+
+.btn:disabled {
+    background-color: var(--line-style-empty);
+    cursor: not-allowed;
+}
