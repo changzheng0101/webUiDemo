@@ -30,3 +30,9 @@
 实现搜索框，点击图标即可展开搜索框，点击外部或者再次点击图标，关闭搜索框。
 
 ![Search](./ResultImg/Search.gif)
+
+05-Blur Loading
+
+模糊加载，数字自动从0-100，数字透明度变高，背景的模糊程度变小。
+
+![BlurLoading](./ResultImg/BlurLoading.gif)
