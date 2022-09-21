@@ -24,3 +24,9 @@
 实现旋转导航
 
 ![RotatingNavigation](./ResultImg/RotaingNavgation.gif)
+
+## 04-Search
+
+实现搜索框，点击图标即可展开搜索框，点击外部或者再次点击图标，关闭搜索框。
+
+![Search](./ResultImg/Search.gif)
