@@ -31,8 +31,17 @@
 
 ![Search](./ResultImg/Search.gif)
 
-05-Blur Loading
+## 05-Blur Loading
 
 模糊加载，数字自动从0-100，数字透明度变高，背景的模糊程度变小。
 
 ![BlurLoading](./ResultImg/BlurLoading.gif)
+
+## 06-ScrollAnimation
+
+向下滑动或者向上滑动时，让content进入或离开。
+![ScrollAnimation](./ResultImg/ScrollAnimation.gif)
+
+## 07-SplitLoginPage
+一个简单的登录页面，鼠标悬浮在某一侧时，会拉伸这一部分。
+![SplitLoginPage](./ResultImg/SplitLoginPage.gif)
