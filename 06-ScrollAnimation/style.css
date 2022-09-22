@@ -20,8 +20,10 @@ h1 {
 }
 
 .box {
+  flex-shrink: 0;
   color: #fff;
   background-color: steelblue;
+  height: 200px;
   width: 300px;
   padding: 20px;
   display: flex;
