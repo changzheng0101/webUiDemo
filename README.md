@@ -40,8 +40,17 @@
 ## 06-ScrollAnimation
 
 向下滑动或者向上滑动时，让content进入或离开。
+
 ![ScrollAnimation](./ResultImg/ScrollAnimation.gif)
 
 ## 07-SplitLoginPage
+
 一个简单的登录页面，鼠标悬浮在某一侧时，会拉伸这一部分。
+
 ![SplitLoginPage](./ResultImg/SplitLoginPage.gif)
+
+## 08-LoginForm
+
+登录页面，点击某一个输入框之后，label会有波纹上升的效果。
+
+![LoginForm](./ResultImg/LoginForm.gif)
