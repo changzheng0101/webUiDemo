@@ -54,3 +54,9 @@
 登录页面，点击某一个输入框之后，label会有波纹上升的效果。
 
 ![LoginForm](./ResultImg/LoginForm.gif)
+
+## 09-ButtonAudio
+
+一堆按钮，点击某个按钮之后会发出对应的声音，如果有其他声音正在播放，会暂停别的声音开始播放新的声音。
+
+![ButtonAudio](./ResultImg/9-ButtonAudio.png)
