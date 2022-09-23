@@ -60,3 +60,9 @@
 一堆按钮，点击某个按钮之后会发出对应的声音，如果有其他声音正在播放，会暂停别的声音开始播放新的声音。
 
 ![ButtonAudio](./ResultImg/9-ButtonAudio.png)
+
+## 10-FetchJoke
+
+发起异步请求，有fetch和async+await两种方式。
+
+![FetchJoke](./ResultImg/10-FetchJoke.gif)
