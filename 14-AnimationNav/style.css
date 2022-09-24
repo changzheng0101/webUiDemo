@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(230, 250, 255);
+    background-image: linear-gradient(
+        to bottom,
+        rgb(230, 250, 255) 0%,
+        rgb(230, 250, 255) 50%,
+        rgb(74, 131, 229) 50%,
+        rgb(74, 131, 229) 100%
+    );
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+nav {
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    width: 50px;
+    transition: width 1s linear;
+    -webkit-transition: width 1s linear;
+    -moz-transition: width 1s linear;
+    -ms-transition: width 1s linear;
+    -o-transition: width 1s linear;
+}
+
+nav.active{
+    width: 350px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 0px;
+    opacity: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    margin: 0;
+    transition: width 1s linear;
+    overflow: hidden;
+    -webkit-transition: width 1s linear;
+    -moz-transition: width 1s linear;
+    -ms-transition: width 1s linear;
+    -o-transition: width 1s linear;
+}
+
+nav.active ul {
+    opacity: 1;
+    display: flex;
+    width: 100%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    margin: 0px 10px;
+}
+
+
+button {
+    background-color: transparent;
+    border: none;
+    width: 20px;
+    height:20px;
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.line {
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: rgb(74, 131, 229);
+    top: 6px;
+    transition: all linear 1s;
+    -webkit-transition: all linear 1s;
+    -moz-transition: all linear 1s;
+    -ms-transition: all linear 1s;
+    -o-transition: all linear 1s;
+}
+
+.line2 {
+    top: auto;
+    bottom: 6px;
+}
+
+nav.active .line1 {
+    transform: rotate(-765deg) translateY(4px);
+    -webkit-transform: rotate(-765deg) translateY(4px);
+    -moz-transform: rotate(-765deg) translateY(4px);
+    -ms-transform: rotate(-765deg) translateY(4px);
+    -o-transform: rotate(-765deg) translateY(4px);
+}
+
+nav.active .line2 {
+    transform: rotate(765deg) translateY(-4px);
+    -webkit-transform: rotate(765deg) translateY(-4px);
+    -moz-transform: rotate(765deg) translateY(-4px);
+    -ms-transform: rotate(765deg) translateY(-4px);
+    -o-transform: rotate(765deg) translateY(-4px);
+}

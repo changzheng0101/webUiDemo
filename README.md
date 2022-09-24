@@ -84,3 +84,9 @@
 随机选择，下面的label是上面输入字符串用逗号分隔的结果，会忽略空白字符，按下`Enter`后从这些label中随机选择最终结果。
 
 ![RandomSelect](./ResultImg/13-RandomSelect.gif)
+
+## 14-AnimationNAv
+
+通过点击来完成导航的拉伸和缩放
+
+![AnimationNAv](./ResultImg/14-AnimationNav.gif)
