@@ -72,3 +72,9 @@
 按下按键之后，会展示这个按键的key、keycode和code
 
 ![keyCodes](./ResultImg/11-keyCodes.gif)
+
+## 12-FAQExpand
+
+点击按钮，完成答案的展开和收缩
+
+![FAQExpand](./ResultImg/12--FAQExpand.gif)
