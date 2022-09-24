@@ -66,3 +66,9 @@
 发起异步请求，有fetch和async+await两种方式。
 
 ![FetchJoke](./ResultImg/10-FetchJoke.gif)
+
+## 11-keyCodes
+
+按下按键之后，会展示这个按键的key、keycode和code
+
+![keyCodes](./ResultImg/11-keyCodes.gif)
