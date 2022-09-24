@@ -78,3 +78,9 @@
 点击按钮，完成答案的展开和收缩
 
 ![FAQExpand](./ResultImg/12--FAQExpand.gif)
+
+## 13-RandomSelect
+
+随机选择，下面的label是上面输入字符串用逗号分隔的结果，会忽略空白字符，按下`Enter`后从这些label中随机选择最终结果。
+
+![RandomSelect](./ResultImg/13-RandomSelect.gif)

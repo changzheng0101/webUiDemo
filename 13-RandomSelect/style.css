@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: cadetblue;
+}
+
+.container {
+    background-color: slateblue;
+    width: 500px;
+    padding: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 10px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+#textarea {
+    width: 100%;
+    display: block;
+    height: 100px;
+    padding: 10px;
+    margin: 0 0 20px;
+    font-size: 16px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    resize: none;
+}
+
+#textarea:focus {
+    outline: none;
+}
+
+.tag {
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    color: #fff;
+    margin-right: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.tag.highlight {
+    background-color: #273c75;
+}
