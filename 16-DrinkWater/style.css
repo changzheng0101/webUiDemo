@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+:root {
+    --border-color: #144fc6;
+    --fill-color: #6ab3f8;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3494e4;
+    color: #fff;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    margin: 0;
+}
+h3{
+    margin: 10px;
+}
+
+.cup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 320px;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 0 0 40px 40px;
+    -webkit-border-radius: 0 0 40px 40px;
+    -moz-border-radius: 0 0 40px 40px;
+    -ms-border-radius: 0 0 40px 40px;
+    -o-border-radius: 0 0 40px 40px;
+    border: 2px  solid var(--border-color);
+    color: var(--border-color);
+    overflow: hidden;
+    font-size: 1rem;
+}
+
+.cup small{
+    font-size: .6rem;
+}
+
+.remained{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+}
+
+.percentage{
+    background-color: var(--fill-color);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    -ms-transition: all ease .5s;
+    -o-transition: all ease .5s;
+}
+
+.text{
+    text-align: center;
+}
+
+.cups{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 380px;
+    justify-content: center;
+}
+
+.cup-small{
+    width: 40px;
+    height: 60px;
+    border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    -ms-border-radius: 0 0 10px 10px;
+    -o-border-radius: 0 0 10px 10px;
+    margin: 10px 20px;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.cup-small.full{
+    background-color: var(--fill-color);
+}
+

@@ -96,3 +96,9 @@
 自动增加到某一个数值
 
 ![IncrementCount](./ResultImg/15-IncrementCounter.gif)
+
+## 16-drinkWater
+
+模拟喝水，一个不错的锻炼css和js的项目
+
+![drinkWater](./ResultImg/16-drinkWater.gif)
