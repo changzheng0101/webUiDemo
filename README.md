@@ -90,3 +90,9 @@
 通过点击来完成导航的拉伸和缩放
 
 ![AnimationNAv](./ResultImg/14-AnimationNav.gif)
+
+## 15-IncrementCount
+
+自动增加到某一个数值
+
+![IncrementCount](./ResultImg/15-IncrementCounter.gif)
