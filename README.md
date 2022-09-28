@@ -108,3 +108,9 @@
 集成第三方API，申请电影，并将最终的结果进行渲染，同时完成了搜索功能。
 
 ![MovieShow](./ResultImg/17-movieApp.gif)
+
+## 18-BackSlide
+
+点击按钮，切换背景图片
+
+![BackSlide](./ResultImg/18-BackSlide.gif)
