@@ -114,3 +114,9 @@
 点击按钮，切换背景图片
 
 ![BackSlide](./ResultImg/18-BackSlide.gif)
+
+## 19-TimeClock
+
+模仿时钟运行，并完成了黑夜模式和白天模式的切换
+
+![TimeClock](./ResultImg/19-TimeClock.gif)
