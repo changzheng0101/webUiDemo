@@ -145,3 +145,9 @@
 用css实现网页loading
 
 ![cssLoading](./ResultImg/23-cssLoading.gif)
+
+## 24-Content Placeholder
+
+内容预加载
+
+![contentPlaceholder](./ResultImg/24-contentPlaceholder.gif)
