@@ -151,3 +151,9 @@
 内容预加载
 
 ![contentPlaceholder](./ResultImg/24-contentPlaceholder.gif)
+
+## 25-sticky navigation
+
+顶部导航栏，可以根据滚动幅度进行伸缩
+
+![stickyNavigation](./ResultImg/25-stickyNavigation.gif)
