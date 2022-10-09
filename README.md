@@ -157,3 +157,9 @@
 顶部导航栏，可以根据滚动幅度进行伸缩
 
 ![stickyNavigation](./ResultImg/25-stickyNavigation.gif)
+
+## 26-doubleVerticalSlide
+
+双垂直滑块，点击按钮之后，两边可以同时进行切换
+
+![doubleVerticalSlide](./ResultImg/26-doubleVerticalSlide.gif)
