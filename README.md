@@ -163,3 +163,9 @@
 双垂直滑块，点击按钮之后，两边可以同时进行切换
 
 ![doubleVerticalSlide](./ResultImg/26-doubleVerticalSlide.gif)
+
+## 27-toast
+
+用toast实现简单通知
+
+![toastNotification](./ResultImg/27-toasts.gif)
