@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+form {
+    max-width: 800px;
+    width: 100vw;
+    /* margin 似乎没用 */
+    margin: 0 1rem;
+}
+
+form input {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: purple;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+form input:focus {
+    outline: none;
+}
+
+form input::placeholder {
+    color: #ccc;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+    background-color: lightblue;
+    padding: 2rem;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.left img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 10px solid gold;
+}
+
+.right {
+    margin-left: 2rem;
+}
+
+.right h1 {
+    margin-bottom: 1rem;
+}
+
+.right p {
+    margin-bottom: 0.5rem;
+}
+
+.right ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+}
+
+.right ul li {
+    margin-right: 1rem;
+    background-color: purple;
+    padding: 0.2rem 0.4rem;
+    border-radius: 5px;
+    font-size: 0.5rem;
+}
+
+.right ul li strong {
+    margin-left: 0.5rem;
+}
+
+.repos{
+    width: 100%;
+}
+
+.right a {
+    text-decoration: none;
+    color: #fff;
+    background-color: darkcyan;
+    padding: 0.2rem 0.4rem;
+    border-radius: 5px;
+    font-size: 0.5rem;
+    margin-right: 1rem;
+    display: inline-block;
+    margin-top: .5rem;
+}

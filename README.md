@@ -169,3 +169,21 @@
 用toast实现简单通知
 
 ![toastNotification](./ResultImg/27-toasts.gif)
+
+## 28-githubProfile
+
+可以用搜索栏搜索GitHub个人信息
+
+![githubProfile](./ResultImg/28-GitHubProfile.gif)
+
+## 29-mobileNavigation
+
+在web网页上实现一个类似手机的导航栏
+
+![mobileNavigation](./ResultImg/29-MobileNavigation.gif)
+
+## 30- PasswordChecker
+
+根据密码的长度改变背景的透明度，结合tailwind进行开发
+
+![PasswordChecker](./ResultImg/30-Password.gif)
