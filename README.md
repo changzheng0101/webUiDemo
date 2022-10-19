@@ -187,3 +187,9 @@
 根据密码的长度改变背景的透明度，结合tailwind进行开发
 
 ![PasswordChecker](./ResultImg/30-Password.gif)
+
+## 31-notesApp
+
+可以创建和删除便签，并且将便签保存到LocalStorage，刷新不会丢失数据 
+
+![notes](./ResultImg/31-notes.gif)
