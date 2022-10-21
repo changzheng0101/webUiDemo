@@ -193,3 +193,10 @@
 可以创建和删除便签，并且将便签保存到LocalStorage，刷新不会丢失数据 
 
 ![notes](./ResultImg/31-notes.gif)
+
+
+## 32-todoList
+
+todo清单，左键可以改变每一项的状态，右键可以删除，使用了LocalStorage缓存，每次刷新不会丢失数据
+
+![todos](./ResultImg/32-todoList.gif)
