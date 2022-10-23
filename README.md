@@ -195,7 +195,7 @@
 
 ## 31-notesApp
 
-可以创建和删除便签，并且将便签保存到LocalStorage，刷新不会丢失数据 
+可以创建和删除便签，并且将便签保存到LocalStorage，刷新不会丢失数据,支持markdown语法
 
 ![notes](./ResultImg/31-notes.gif)
 
@@ -205,3 +205,9 @@
 todo清单，左键可以改变每一项的状态，右键可以删除，使用了LocalStorage缓存，每次刷新不会丢失数据
 
 ![todos](./ResultImg/32-todoList.gif)
+
+## 33-liveUserFilter
+
+实时用户过滤，通过第三方API获取用户进行渲染，并完成搜索功能
+
+![liveUserFilter](./ResultImg/33-liveUserFilter.gif)
