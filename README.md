@@ -211,3 +211,9 @@ todo清单，左键可以改变每一项的状态，右键可以删除，使用�
 实时用户过滤，通过第三方API获取用户进行渲染，并完成搜索功能
 
 ![liveUserFilter](./ResultImg/33-liveUserFilter.gif)
+
+## 34-AnimatedScroll
+
+滚动页面的时候最上面会有指示条，显示当前所处的位置。
+
+![animationScroll](./ResultImg/34-animationScroll.gif)
