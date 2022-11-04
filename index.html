@@ -4,17 +4,140 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=\\, initial-scale=1.0">
-    <title>网页初学小项目~</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欢迎你的到来~</title>
+    <link rel="stylesheet" href="./sass/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
 
 <body>
-    <h1>纯html、css、js项目</h1>
-    <h2>网页组件项目</h2>
-    <div>
-        <a href="./01-Expanding Cards/index.html">01-Expanding Cards</a>
-    </div>
-    <a href="./02-Progress Bar/index.html">02-Progress Bar</a>
+
+    <main class="main" id="main">
+        <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="logo"><strong>ChangZheng0101</strong> Hello World</a>
+            <ul class="icons">
+                <li><a href="#" class="icon bi bi-wechat"></a></li>
+                <li><a href="#" class="icon bi bi-android"></a></li>
+                <li><a href="#" class="icon bi bi-apple"></a></li>
+                <li><a href="#" class="icon bi bi-badge-4k"></a></li>
+            </ul>
+        </header>
+        <section id="banner">
+            <div class="content">
+                <header>
+                    <h1>Hi, I'm Chang Zheng<br />
+                        A Student From Beijing</h1>
+                    <p>Internet Connect The World!</p>
+                </header>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea deleniti quia aut tenetur delectus?
+                    Recusandae animi et aliquam. Officia, repellat.</p>
+                <ul class="actions">
+                    <li><a href="#" class="button big">Learn More</a></li>
+                </ul>
+            </div>
+            <span class="image object">
+                <img src="https://bing.ioliu.cn/v1/rand?w=400&h=240" alt="" />
+            </span>
+        </section>
+        <!-- 小型组件 -->
+
+        <!-- 项目展示 -->
+        <section>
+            <header class="major">
+                <h2>Other Project</h2>
+            </header>
+            <div class="projects">
+                <div>
+                    <a href="#" class="image"><img src="https://bing.ioliu.cn/v1/rand?w=400&h=240" alt="" /></a>
+                    <h3>Interdum aenean</h3>
+                    <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
+                        facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+                    <ul class="actions">
+                        <li><a href="#" class="button">More</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="#" class="image"><img src="https://bing.ioliu.cn/v1/rand?w=400&h=240" alt="" /></a>
+                    <h3>Nulla amet dolore</h3>
+                    <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
+                        facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+                    <ul class="actions">
+                        <li><a href="#" class="button">More</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="#" class="image"><img src="https://bing.ioliu.cn/v1/rand?w=400&h=240" alt="" /></a>
+                    <h3>Tempus ullamcorper</h3>
+                    <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
+                        facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+                    <ul class="actions">
+                        <li><a href="#" class="button">More</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="#" class="image"><img src="https://bing.ioliu.cn/v1/rand?w=400&h=240" alt="" /></a>
+                    <h3>Sed etiam facilis</h3>
+                    <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
+                        facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+                    <ul class="actions">
+                        <li><a href="#" class="button">More</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="#" class="image"><img src="https://bing.ioliu.cn/v1/rand?w=400&h=240" alt="" /></a>
+                    <h3>Feugiat lorem aenean</h3>
+                    <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
+                        facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+                    <ul class="actions">
+                        <li><a href="#" class="button">More</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="#" class="image"><img src="https://bing.ioliu.cn/v1/rand?w=400&h=240" alt="" /></a>
+                    <h3>Amet varius aliquam</h3>
+                    <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
+                        facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+                    <ul class="actions">
+                        <li><a href="#" class="button">More</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- connect me -->
+        <section>
+            <header class="major">
+                <h2>Connect me</h2>
+            </header>
+            <p><strong>Auctor commodo</strong> interdum et malesuada fames ac ante ipsum primis in faucibus.
+                Pellentesque venenatis dolor imperdiet dolor mattis sagittis.</p>
+            <form>
+                <div class="fields">
+                    <div class=" ">
+                        <input type="text" name="name" id="name" placeholder="Name" autocomplete="noauto" />
+                    </div>
+                    <div class="">
+                        <input type="email" name="email" id="email" placeholder="Email" autocomplete="noauto" />
+                    </div>
+                    <div class="message">
+                        <textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
+                    </div>
+                </div>
+                <ul class="actions">
+                    <li><input type="submit" value="Send Message" class="button primary" /></li>
+                </ul>
+            </form>
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <p class="copyright">&copy; ChangZheng0101. All rights reserved. Powered By: <a
+                    href="https://unsplash.com">GitHub</a>. Design: <a href="https://html5up.net">HTML5
+                    UP</a>.</p>
+        </footer>
+    </main>
+
 </body>
 
 </html>

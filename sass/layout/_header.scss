@@ -1,0 +1,22 @@
+#header {
+    display: flex;
+    border-bottom: solid 5px _palette(accent);
+    padding: 1rem 0 0.5rem 0;
+    position: relative;
+
+    > * {
+        flex: 1;
+        margin-bottom: 0;
+    }
+
+    .logo {
+        border-bottom: 0;
+        color: inherit;
+        font-family: _font(family-heading);
+        font-size: 1.125em;
+    }
+
+    .icons {
+        text-align: right;
+    }
+}

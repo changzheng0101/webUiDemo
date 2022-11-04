@@ -1,0 +1,11 @@
+#footer {
+	.copyright {
+		color: _palette(fg-light);
+		font-size: 0.9em;
+		text-align: center;
+
+		a {
+			color: inherit;
+		}
+	}
+}
