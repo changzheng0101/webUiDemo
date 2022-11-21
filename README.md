@@ -23,10 +23,6 @@
 
 ![ProgressBar](./ResultImg/progressBar.png)
 
-![ProgressBar-active1](./ResultImg/progressBar-active.jpg)
-
-![ProgressBar-](./ResultImg/progressBar-active2.png)
-
 ## 03-RotatingNavigation
 
 实现旋转导航
@@ -39,7 +35,7 @@
 
 ![Search](./ResultImg/Search.gif)
 
-## 05-Blur Loading
+## 05-BlurLoading
 
 模糊加载，数字自动从0-100，数字透明度变高，背景的模糊程度变小。
 
@@ -93,19 +89,19 @@
 
 ![RandomSelect](./ResultImg/13-RandomSelect.gif)
 
-## 14-AnimationNAv
+## 14-AnimationNav
 
 通过点击来完成导航的拉伸和缩放
 
 ![AnimationNAv](./ResultImg/14-AnimationNav.gif)
 
-## 15-IncrementCount
+## 15-IncrementCounter
 
 自动增加到某一个数值
 
 ![IncrementCount](./ResultImg/15-IncrementCounter.gif)
 
-## 16-drinkWater
+## 16-DrinkWater
 
 模拟喝水，一个不错的锻炼css和js的项目
 
@@ -117,7 +113,7 @@
 
 ![MovieShow](./ResultImg/17-movieApp.gif)
 
-## 18-BackSlide
+## 18-BackSliders
 
 点击按钮，切换背景图片
 
@@ -154,19 +150,19 @@
 
 ![cssLoading](./ResultImg/23-cssLoading.gif)
 
-## 24-Content Placeholder
+## 24-ContentPlaceholder
 
 内容预加载
 
 ![contentPlaceholder](./ResultImg/24-contentPlaceholder.gif)
 
-## 25-sticky navigation
+## 25-stickyHeader
 
 顶部导航栏，可以根据滚动幅度进行伸缩
 
 ![stickyNavigation](./ResultImg/25-stickyNavigation.gif)
 
-## 26-doubleVerticalSlide
+## 26-doubleVerticalSlider
 
 双垂直滑块，点击按钮之后，两边可以同时进行切换
 
@@ -215,7 +211,7 @@ todo清单，左键可以改变每一项的状态，右键可以删除，使用�
 
 ![liveUserFilter](./ResultImg/33-liveUserFilter.gif)
 
-## 34-AnimatedScroll
+## 34-AnimationScroll
 
 滚动页面的时候最上面会有指示条，显示当前所处的位置。
 

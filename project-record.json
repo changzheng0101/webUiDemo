@@ -1,4 +1,4 @@
-const projects = [
+[
     {
         "projectLink": "./01-Expanding Cards/index.html",
         "title": "Expanding Cards",
@@ -238,19 +238,3 @@ const projects = [
         "imgAlt": "animationScroll"
     }
 ]
-
-const projectsEl = document.querySelector('#projects')
-projects.forEach(project =>{
-    const projectEl = document.createElement('div');
-
-    projectEl.innerHTML = `
-        <a href="#" class="image"><img src="${project.imgUrl}" alt="${project.imgAlt}" /></a>
-        <h3>${project.title}</h3>
-        <p>${project.content}</p>
-        <ul class="actions">
-            <li><a href="${project.projectLink}" class="button">在线预览</a></li>
-        </ul>
-    `
-    projectsEl.appendChild(projectEl)
-})
-
