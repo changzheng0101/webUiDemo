@@ -216,3 +216,9 @@ todo清单，左键可以改变每一项的状态，右键可以删除，使用�
 滚动页面的时候最上面会有指示条，显示当前所处的位置。
 
 ![animationScroll](./ResultImg/34-animationScroll.gif)
+
+## 35-CountDown
+
+简易的加载倒计时
+
+![countDown](./ResultImg/35-CountDown.gif)

@@ -236,6 +236,13 @@ const projects = [
         "content": "滚动页面的时候最上面会有指示条，显示当前所处的位置。",
         "imgUrl": "./ResultImg/34-animationScroll.gif",
         "imgAlt": "animationScroll"
+    },
+    { 
+        "projectLink": "./35-CountDown/index.html",
+        "title": "CountDown",
+        "content": "简易的加载倒计时",
+        "imgUrl": "./ResultImg/35-CountDown.gif",
+        "imgAlt": "countDown"
     }
 ]
 
