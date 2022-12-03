@@ -243,6 +243,14 @@ const projects = [
         "content": "简易的加载倒计时",
         "imgUrl": "./ResultImg/35-CountDown.gif",
         "imgAlt": "countDown"
+    },
+    {
+        
+        "projectLink": "./36-verifyCode/index.html",
+        "title": "verifyCode",
+        "content": "六位验证码实现，每个框中只能输入一个数字。",
+        "imgUrl": "./ResultImg/36-verifyCode.gif",
+        "imgAlt": "verifyCode"
     }
 ]
 

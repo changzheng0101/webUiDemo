@@ -222,3 +222,9 @@ todo清单，左键可以改变每一项的状态，右键可以删除，使用�
 简易的加载倒计时
 
 ![countDown](./ResultImg/35-CountDown.gif)
+
+## 36-verifyCode
+
+六位验证码实现，每个框中只能输入一个数字。
+
+![verifyCode](./ResultImg/36-verifyCode.gif)
