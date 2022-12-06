@@ -266,6 +266,14 @@ const projects = [
         "content": "密码生成器，可以生成不同长度的密码，根据自己的需求选择大写字母，小写字母，数字和特殊符号，还可以完成复制。",
         "imgUrl": "./ResultImg/38-passwordGenerate.gif",
         "imgAlt": "passwordGenerate"
+    }, 
+    {
+        
+        "projectLink": "./39-checkButton/index.html",
+        "title": "checkButton",
+        "content": "点击可以切换状态，三个复选框只能最多两个被选中",
+        "imgUrl": "./ResultImg/39-checkButton.gif",
+        "imgAlt": "checkButton"
     }
 ]
 

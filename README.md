@@ -240,3 +240,9 @@ todo清单，左键可以改变每一项的状态，右键可以删除，使用�
 密码生成器，可以生成不同长度的密码，根据自己的需求选择大写字母，小写字母，数字和特殊符号，还可以完成复制。
 
 ![passwordGenerate](./ResultImg/38-passwordGenerate.gif)
+
+## 39-checkButton
+
+点击可以切换状态，三个复选框只能最多两个被选中
+
+![checkButton](./ResultImg/39-checkButton.gif)
