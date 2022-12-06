@@ -228,3 +228,15 @@ todo清单，左键可以改变每一项的状态，右键可以删除，使用�
 六位验证码实现，每个框中只能输入一个数字。
 
 ![verifyCode](./ResultImg/36-verifyCode.gif)
+
+## 37-autoText
+
+文字轮播显示，可以控制文字显示的速度，适合放在首页
+
+![autoText](./ResultImg/37-autoText.gif)
+
+## 38-passwordGenerate
+
+密码生成器，可以生成不同长度的密码，根据自己的需求选择大写字母，小写字母，数字和特殊符号，还可以完成复制。
+
+![passwordGenerate](./ResultImg/38-passwordGenerate.gif)

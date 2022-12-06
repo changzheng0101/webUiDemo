@@ -251,6 +251,21 @@ const projects = [
         "content": "六位验证码实现，每个框中只能输入一个数字。",
         "imgUrl": "./ResultImg/36-verifyCode.gif",
         "imgAlt": "verifyCode"
+    },
+    { 
+        "projectLink": "./37-autoText/index.html",
+        "title": "autoText",
+        "content": "文字轮播显示，可以控制文字显示的速度，适合放在首页",
+        "imgUrl": "./ResultImg/37-autoText.gif",
+        "imgAlt": "autoText"
+    },
+    {
+        
+        "projectLink": "./38-passwordGenerate/index.html",
+        "title": "passwordGenerate",
+        "content": "密码生成器，可以生成不同长度的密码，根据自己的需求选择大写字母，小写字母，数字和特殊符号，还可以完成复制。",
+        "imgUrl": "./ResultImg/38-passwordGenerate.gif",
+        "imgAlt": "passwordGenerate"
     }
 ]
 
